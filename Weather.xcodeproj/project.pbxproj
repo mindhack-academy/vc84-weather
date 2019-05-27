@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18988156229C3D94003F0FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18988155229C3D94003F0FE5 /* AppDelegate.swift */; };
-		18988158229C3D94003F0FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18988157229C3D94003F0FE5 /* ViewController.swift */; };
+		18988158229C3D94003F0FE5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18988157229C3D94003F0FE5 /* HomeVC.swift */; };
 		1898815B229C3D94003F0FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18988159229C3D94003F0FE5 /* Main.storyboard */; };
 		1898815D229C3D95003F0FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898815C229C3D95003F0FE5 /* Assets.xcassets */; };
 		18988160229C3D95003F0FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898815E229C3D95003F0FE5 /* LaunchScreen.storyboard */; };
+		18988168229C5254003F0FE5 /* HeroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18988167229C5254003F0FE5 /* HeroVC.swift */; };
+		1898816A229C597E003F0FE5 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18988169229C597E003F0FE5 /* ForecastCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18988152229C3D94003F0FE5 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18988155229C3D94003F0FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18988157229C3D94003F0FE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18988157229C3D94003F0FE5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1898815A229C3D94003F0FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1898815C229C3D95003F0FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898815F229C3D95003F0FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18988161229C3D95003F0FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18988167229C5254003F0FE5 /* HeroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroVC.swift; sourceTree = "<group>"; };
+		18988169229C597E003F0FE5 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				18988155229C3D94003F0FE5 /* AppDelegate.swift */,
-				18988157229C3D94003F0FE5 /* ViewController.swift */,
+				18988157229C3D94003F0FE5 /* HomeVC.swift */,
 				18988159229C3D94003F0FE5 /* Main.storyboard */,
+				18988169229C597E003F0FE5 /* ForecastCell.swift */,
+				18988167229C5254003F0FE5 /* HeroVC.swift */,
 				1898815C229C3D95003F0FE5 /* Assets.xcassets */,
 				1898815E229C3D95003F0FE5 /* LaunchScreen.storyboard */,
 				18988161229C3D95003F0FE5 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18988158229C3D94003F0FE5 /* ViewController.swift in Sources */,
+				1898816A229C597E003F0FE5 /* ForecastCell.swift in Sources */,
+				18988158229C3D94003F0FE5 /* HomeVC.swift in Sources */,
+				18988168229C5254003F0FE5 /* HeroVC.swift in Sources */,
 				18988156229C3D94003F0FE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
